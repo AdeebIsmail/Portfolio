@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://AdeebIsmail.github.io/portfolio",
+  "homepage": "https://AdeebIsmail.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -57,7 +57,7 @@ const TextCard = () => {
   const card = (
     <React.Fragment>
       <ThemeProvider theme={themeText}>
-        <CardContent sx={{ width: "100vmin", }}>
+        <CardContent sx={{  width: "100%", maxWidth: "600px", margin: "0 auto" }}>
           <Typography variant="h5" component="div">
             Howdy!
           </Typography>

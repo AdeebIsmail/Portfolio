@@ -36,7 +36,7 @@ const ResumeCard = () => {
 
   const card = (
     <React.Fragment>
-      <CardContent sx={{ width: "100vmin", height: getHeight() }}>
+      <CardContent sx={{ width: "80vmin", height: "100vmin" }}>
         <object
             data="https://drive.google.com/file/d/1JlALSfS6-ifE1ofqLAxsgjp2YM6QB5kN/preview"
             width="100%"
@@ -60,6 +60,7 @@ const ResumeCard = () => {
   );
 
   return (
+    
     <Box>
       <Card variant="outlined">{card}</Card>
     </Box>
