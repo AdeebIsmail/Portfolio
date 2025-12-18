@@ -5,7 +5,7 @@ import Home from "./pages/minimal";
 export const ThemeContext = createContext();
 
 function App() {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
     if (isDark) {
