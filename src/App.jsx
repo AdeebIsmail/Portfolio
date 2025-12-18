@@ -1,13 +1,30 @@
-import "./App.css";
-import React from "react";
+import React, { useState, useEffect, createContext } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/minimal";
 
+export const ThemeContext = createContext();
+
 function App() {
+  const [isDark, setIsDark] = useState(true);
+
+  useEffect(() => {
+    if (isDark) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [isDark]);
+
+  const toggleTheme = () => {
+    setIsDark(!isDark);
+  };
+
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-    </Routes>
+    <ThemeContext.Provider value={{ isDark, toggleTheme }}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </ThemeContext.Provider>
   );
 }
 
