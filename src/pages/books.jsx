@@ -9,7 +9,7 @@ function Books() {
             favs
           </div>
           <div className="space-y-2">
-            <div className="px-2 py-1 text-sm md:text-[0.8rem] lg:text-[0.85rem] text-left">
+            <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
               <a
                 href="https://www.goodreads.com/book/show/17262173-kenobi"
                 className="underline hover:no-underline"
@@ -17,7 +17,7 @@ function Books() {
                 Kenobi (Star Wars)
               </a>{" "}
             </div>
-            <div className="px-2 py-1 text-sm  md:text-[0.8rem] lg:text-[0.85rem] text-left">
+            <div className="px-2 py-1 text-sm  md:text-[0.85rem] lg:text-[0.9rem] text-left">
               <a
                 href="https://www.goodreads.com/book/show/59960.Batman"
                 className="underline hover:no-underline"
@@ -25,7 +25,7 @@ function Books() {
                 Batman: The Dark Knight Returns
               </a>{" "}
             </div>
-            <div className="px-2 py-1 text-sm  md:text-[0.8rem] lg:text-[0.85rem] text-left">
+            <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
               <a
                 href="https://www.goodreads.com/book/show/5332742-the-lab"
                 className="underline hover:no-underline"
