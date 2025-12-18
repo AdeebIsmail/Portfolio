@@ -1,6 +1,7 @@
 import React, { useState, useEffect, createContext } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/minimal";
+import Books from "./pages/books";
 
 export const ThemeContext = createContext();
 
@@ -23,6 +24,7 @@ function App() {
     <ThemeContext.Provider value={{ isDark, toggleTheme }}>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/books" element={<Books />} />
       </Routes>
     </ThemeContext.Provider>
   );
