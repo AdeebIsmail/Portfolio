@@ -140,7 +140,8 @@ function Home() {
                 >
                   custom-map-generator
                 </a>{" "}
-                - Custom map generator tool I made to generate my biking maps
+                - Custom map generator for creating and visualizing biking
+                routes
               </div>
             </div>
           </div>
