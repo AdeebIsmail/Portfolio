@@ -31,7 +31,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/books" element={<Books />} />
-        {/* <Route path="/biking" element={<Biking />} /> */}
+        <Route path="/biking" element={<Biking />} />
       </Routes>
     </ThemeContext.Provider>
   );

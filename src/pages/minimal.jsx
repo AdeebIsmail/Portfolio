@@ -41,11 +41,11 @@ function Home() {
                   books
                 </Link>
               </div>
-              {/* <div className="z text-sm md:text-[0.85rem] lg:text-[0.9rem] text-right">
+              <div className="z text-sm md:text-[0.85rem] lg:text-[0.9rem] text-right">
                 <Link to="/biking" className="underline hover:no-underline">
                   biking
                 </Link>
-              </div> */}
+              </div>
             </div>
 
             <div className="col-span-12">
@@ -128,10 +128,19 @@ function Home() {
                   href="https://github.com/AdeebIsmail/fidelity-transaction-parser-rust"
                   className="underline hover:no-underline"
                 >
-                  Transaction Parser
+                  Transaction-parser
                 </a>{" "}
                 - Rust based application that reads CSV transaction data from
                 Fidelity and generates graphs and charts
+              </div>
+              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                <a
+                  href="https://github.com/AdeebIsmail/custom-map-generator"
+                  className="underline hover:no-underline"
+                >
+                  custom-map-generator
+                </a>{" "}
+                - Custom map generator tool I made to generate my biking maps
               </div>
             </div>
           </div>
