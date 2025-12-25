@@ -5,7 +5,7 @@ function Books() {
   return (
     <div className="min-h-screen bg-white dark:bg-black text-gray-900 dark:text-white transition-colors">
       <div className="flex flex-col justify-start items-center min-h-screen w-full">
-        <div className="max-w-[600px] mx-auto p-0 mt-[30px] mb-[60px]">
+        <div className="max-w-[600px] mx-auto pt-0 pr-1 pl-1 pb-0 mt-[30px] mb-[60px]">
           <div>
             <Link
               to="/"

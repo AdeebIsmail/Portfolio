@@ -7,7 +7,7 @@ function Biking() {
   return (
     <div className="min-h-screen bg-white dark:bg-black text-gray-900 dark:text-white transition-colors">
       <div className="flex flex-col justify-start items-center min-h-screen w-full">
-        <div className="max-w-[600px] w-full mx-auto p-0 mt-[30px] mb-[60px]">
+        <div className="max-w-[600px] w-full mx-auto pt-0 pr-1 pl-1 pb-0 mt-[30px] mb-[60px]">
           <div>
             <Link
               to="/"
@@ -29,7 +29,7 @@ function Biking() {
                 width="600"
                 alt="Bike route 1 map showing 12.04 mile route"
               />
-              <figcaption className="py-1">~12.04 miles</figcaption>
+              <figcaption className="pt-2">~12.04 miles</figcaption>
             </div>
             <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-center italic">
               <img
@@ -38,7 +38,7 @@ function Biking() {
                 width="600"
                 alt="Bike route 2 map showing 8.6 mile route"
               />
-              <figcaption className="py-1">~8.6 miles</figcaption>
+              <figcaption className="pt-2">~8.6 miles</figcaption>
             </div>
             <div className="px-2 py-1 text-sm  md:text-[0.85rem] lg:text-[0.9rem] text-center italic">
               <img
@@ -47,7 +47,7 @@ function Biking() {
                 width="600"
                 alt="Bike route 2 map showing 11.76 mile route"
               />
-              <figcaption className="py-1">~11.76 miles</figcaption>
+              <figcaption className="pt-2">~11.76 miles</figcaption>
             </div>
           </div>
         </div>
