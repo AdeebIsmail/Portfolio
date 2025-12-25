@@ -135,10 +135,10 @@ function Home() {
               </div>
               <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
                 <a
-                  href="https://github.com/AdeebIsmail/custom-map-generator"
+                  href="https://github.com/AdeebIsmail/route-map-generator"
                   className="underline hover:no-underline"
                 >
-                  custom-map-generator
+                  route-map-generator
                 </a>{" "}
                 - Custom map generator for creating and visualizing biking
                 routes
