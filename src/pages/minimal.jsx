@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-black text-gray-900 dark:text-white transition-colors ">
       <div className="flex flex-col justify-start items-center min-h-screen w-full">
-        <div className="max-w-[600px] mx-auto p-0 mt-[30px] mb-[60px]">
+        <div className="max-w-[600px] mx-auto pt-0 pr-1 pl-1 pb-0 mt-[30px] mb-[60px]">
           <div className="grid grid-cols-12 items-baseline">
             <div className="col-span-8">
               <div className="px-2 pt-2 pb-0 text-3xl sm:text-[1.4rem] md:text-[1.5rem] lg:text-[2rem] font-bold text-left">
@@ -41,11 +41,11 @@ function Home() {
                   books
                 </Link>
               </div>
-              {/* <div className="z text-sm md:text-[0.85rem] lg:text-[0.9rem] text-right">
+              <div className="z text-sm md:text-[0.85rem] lg:text-[0.9rem] text-right">
                 <Link to="/biking" className="underline hover:no-underline">
                   biking
                 </Link>
-              </div> */}
+              </div>
             </div>
 
             <div className="col-span-12">
@@ -128,10 +128,20 @@ function Home() {
                   href="https://github.com/AdeebIsmail/fidelity-transaction-parser-rust"
                   className="underline hover:no-underline"
                 >
-                  Transaction Parser
+                  Transaction-parser
                 </a>{" "}
                 - Rust based application that reads CSV transaction data from
                 Fidelity and generates graphs and charts
+              </div>
+              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                <a
+                  href="https://github.com/AdeebIsmail/route-map-generator"
+                  className="underline hover:no-underline"
+                >
+                  route-map-generator
+                </a>{" "}
+                - Custom map generator for creating and visualizing biking
+                routes
               </div>
             </div>
           </div>
