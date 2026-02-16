@@ -68,7 +68,7 @@ function Home() {
             </div>
 
             <div className="col-span-12">
-              <div className="px-2 pt-6 pb-2 text-base md:text-[0.95rem] lg:text-[1rem] font-bold text-left">
+              <div className="px-2 pt-6 pb-2 text-base md:text-[1rem] lg:text-[1.2rem] font-bold text-left">
                 experience
               </div>
             </div>
@@ -94,7 +94,7 @@ function Home() {
             </div>
 
             <div className="col-span-12">
-              <div className="px-2 pt-6 pb-2 text-base md:text-[0.95rem] lg:text-[1rem] font-bold text-left">
+              <div className="px-2 pt-6 pb-2 text-base md:text-[1rem] lg:text-[1.2rem] font-bold text-left">
                 projects
               </div>
             </div>
