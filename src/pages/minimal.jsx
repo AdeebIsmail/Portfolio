@@ -68,7 +68,7 @@ function Home() {
             </div>
 
             <div className="col-span-12">
-              <div className="px-2 pt-6 pb-2 text-base md:text-[0.95rem] lg:text-[1rem] font-bold text-left">
+              <div className="px-2 pt-6 pb-2 text-base md:text-[1rem] lg:text-[1.2rem] font-bold text-left">
                 experience
               </div>
             </div>
@@ -94,7 +94,7 @@ function Home() {
             </div>
 
             <div className="col-span-12">
-              <div className="px-2 pt-6 pb-2 text-base md:text-[0.95rem] lg:text-[1rem] font-bold text-left">
+              <div className="px-2 pt-6 pb-2 text-base md:text-[1rem] lg:text-[1.2rem] font-bold text-left">
                 projects
               </div>
             </div>
@@ -122,16 +122,6 @@ function Home() {
                   Point of sales system
                 </a>{" "}
                 - Full stack point of sales system for panda express
-              </div>
-              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
-                <a
-                  href="https://github.com/AdeebIsmail/fidelity-transaction-parser-rust"
-                  className="underline hover:no-underline"
-                >
-                  Transaction-parser
-                </a>{" "}
-                - Rust based application that reads CSV transaction data from
-                Fidelity and generates graphs and charts
               </div>
               <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
                 <a

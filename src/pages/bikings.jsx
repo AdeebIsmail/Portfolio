@@ -29,7 +29,7 @@ function Biking() {
                 width="600"
                 alt="Bike route 1 map showing 12.04 mile route"
               />
-              <figcaption className="pt-2">~12.04 miles</figcaption>
+              <figcaption className="pt-2.5">~12.04 miles</figcaption>
             </div>
             <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-center italic">
               <img
@@ -38,7 +38,7 @@ function Biking() {
                 width="600"
                 alt="Bike route 2 map showing 8.6 mile route"
               />
-              <figcaption className="pt-2">~8.6 miles</figcaption>
+              <figcaption className="pt-2.5">~8.6 miles</figcaption>
             </div>
             <div className="px-2 py-1 text-sm  md:text-[0.85rem] lg:text-[0.9rem] text-center italic">
               <img
@@ -47,7 +47,7 @@ function Biking() {
                 width="600"
                 alt="Bike route 2 map showing 11.76 mile route"
               />
-              <figcaption className="pt-2">~11.76 miles</figcaption>
+              <figcaption className="pt-2.5">~11.76 miles</figcaption>
             </div>
           </div>
         </div>

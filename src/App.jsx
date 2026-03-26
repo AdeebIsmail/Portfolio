@@ -9,7 +9,7 @@ export const ThemeContext = createContext();
 function App() {
   const [isDark, setIsDark] = useState(false);
 
-  useEffect(() => {
+  useEffect(() => { 
     const metaThemeColor = document.querySelector('meta[name="theme-color"]');
     if (isDark) {
       document.documentElement.classList.add("dark");
@@ -32,6 +32,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/books" element={<Books />} />
         <Route path="/biking" element={<Biking />} />
+        
       </Routes>
     </ThemeContext.Provider>
   );
