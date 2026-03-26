@@ -125,16 +125,6 @@ function Home() {
               </div>
               <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
                 <a
-                  href="https://github.com/AdeebIsmail/fidelity-transaction-parser-rust"
-                  className="underline hover:no-underline"
-                >
-                  Transaction-parser
-                </a>{" "}
-                - Rust based application that reads CSV transaction data from
-                Fidelity and generates graphs and charts
-              </div>
-              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
-                <a
                   href="https://github.com/AdeebIsmail/route-map-generator"
                   className="underline hover:no-underline"
                 >
