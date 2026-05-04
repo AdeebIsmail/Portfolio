@@ -11,7 +11,7 @@ function Home() {
         <div className="max-w-[600px] mx-auto pt-0 pr-1 pl-1 pb-0 mt-[30px] mb-[60px]">
           <div className="grid grid-cols-12 items-baseline">
             <div className="col-span-8">
-              <div className="px-2 pt-2 pb-0 text-3xl sm:text-[1.4rem] md:text-[1.5rem] lg:text-[2rem] font-bold text-left">
+              <div className="px-2 pt-2 pb-0 text-4xl sm:text-[1.4rem] md:text-[1.5rem] lg:text-[2rem] font-bold text-left">
                 adeeb ismail
               </div>
             </div>
