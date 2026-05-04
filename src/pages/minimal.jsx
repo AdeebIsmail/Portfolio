@@ -36,12 +36,12 @@ function Home() {
                   />
                 </svg>
               </button>
-              <div className="z text-sm md:text-[0.85rem] lg:text-[0.9rem] text-right">
+              <div className="z text-[clamp(0.7rem,3.2vw,0.875rem)] text-right">
                 <Link to="/books" className="underline hover:no-underline">
                   books
                 </Link>
               </div>
-              <div className="z text-sm md:text-[0.85rem] lg:text-[0.9rem] text-right">
+              <div className="z text-[clamp(0.7rem,3.2vw,0.875rem)] text-right">
                 <Link to="/biking" className="underline hover:no-underline">
                   biking
                 </Link>
@@ -49,7 +49,7 @@ function Home() {
             </div>
 
             <div className="col-span-12">
-              <div className="px-2 pt-1 pb-0 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+              <div className="px-2 pt-1 pb-0 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
                 adeebismail9@tamu.edu |{" "}
                 <a
                   href="https://www.linkedin.com/in/adeeb-m-ismail/"
@@ -75,68 +75,68 @@ function Home() {
 
             <div className="col-span-12 space-y-4">
               <div>
-                <div className="flex justify-between items-center px-2">
-                  <div className="font-medium text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                <div className="flex justify-between items-center px-2 gap-2">
+                  <div className="font-medium text-[clamp(0.7rem,3.2vw,0.875rem)] text-left min-w-0">
                     Software Engineering Intern - Lockheed Martin
                   </div>
 
-                  <div className="text-xs text-gray-500 whitespace-nowrap">
+                  <div className="text-xs text-gray-500 whitespace-nowrap flex-shrink-0">
                     2024 - 2026
                   </div>
                 </div>
 
-                <div className="px-2 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
                   Supporting the manufacturing execution system (mes) for the
                   f-35 lightning II program
                 </div>
               </div>
 
               <div>
-                <div className="flex justify-between items-center px-2">
-                  <div className="font-medium text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                <div className="flex justify-between items-center px-2 gap-2">
+                  <div className="font-medium text-[clamp(0.7rem,3.2vw,0.875rem)] text-left min-w-0">
                     Undergraduate Teaching Assistant - Texas A&amp;M
                   </div>
 
-                  <div className="text-xs text-gray-500 whitespace-nowrap">
+                  <div className="text-xs text-gray-500 whitespace-nowrap flex-shrink-0">
                     2023 - 2026
                   </div>
                 </div>
 
-                <div className="px-2   text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                <div className="px-2   text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
                   Teaching assistant for intro to python (engr 102) and
                   experimental physics lab (engr 216)
                 </div>
               </div>
 
               <div>
-                <div className="flex justify-between items-center px-2">
-                  <div className="font-medium text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                <div className="flex justify-between items-center px-2 gap-2">
+                  <div className="font-medium text-[clamp(0.7rem,3.2vw,0.875rem)] text-left min-w-0">
                     Student Researcher - Texas A&amp;M
                   </div>
 
-                  <div className="text-xs text-gray-500 whitespace-nowrap">
+                  <div className="text-xs text-gray-500 whitespace-nowrap flex-shrink-0">
                     Mar 2025 - May 2025
                   </div>
                 </div>
 
-                <div className="px-2 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
                   Researched windows vulnerabilities and developed dll injection
                   code
                 </div>
               </div>
 
               <div>
-                <div className="flex justify-between items-center px-2">
-                  <div className=" font-medium text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                <div className="flex justify-between items-center px-2 gap-2">
+                  <div className="font-medium text-[clamp(0.7rem,3.2vw,0.875rem)] text-left min-w-0">
                     Code Sensei - Code Ninjas
                   </div>
 
-                  <div className="text-xs text-gray-500 whitespace-nowrap">
+                  <div className="text-xs text-gray-500 whitespace-nowrap flex-shrink-0">
                     2021 - 2023
                   </div>
                 </div>
 
-                <div className="px-2 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
                   Taught programming fundamentals and assisted students across
                   multiple topics
                 </div>
@@ -150,25 +150,25 @@ function Home() {
             </div>
 
             <div className="col-span-12">
-              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
-                Interactive BRL-CAD Raytracing Visualizer - Developed a custom
-                module for Intel OSPray for raytracing BRL-CAD models
+              <div className="px-2 py-1 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
+                Interactive BRL-CAD Raytracing Visualizer - Tool for visualizing
+                BRL-CAD geometry using ray tracing
               </div>
-              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
-                Minimal Linux Kernel - Built a miniature operating system with
-                physical and virtual memory, threading, a file system, etc
+              <div className="px-2 py-1 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
+                Minimal Linux Kernel - Miniature operating system with physical
+                and virtual memory, threading, a file system, etc
               </div>
-              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+              <div className="px-2 py-1 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
                 <a
                   href="https://github.com/AdeebIsmail/PiDisplay"
                   className="underline hover:no-underline"
                 >
                   PiDisplay
                 </a>{" "}
-                - Designed an e-ink display that dynamically displays the song
-                currently playing on spotify
+                - E-ink display that dynamically displays the song currently
+                playing on spotify
               </div>
-              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+              <div className="px-2 py-1 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
                 <a
                   href="https://github.com/AdeebIsmail/PandaExpressPOS"
                   className="underline hover:no-underline"
@@ -177,7 +177,7 @@ function Home() {
                 </a>{" "}
                 - Full stack point of sales system for panda express
               </div>
-              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+              <div className="px-2 py-1 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
                 <a
                   href="https://github.com/AdeebIsmail/route-map-generator"
                   className="underline hover:no-underline"
