@@ -73,23 +73,73 @@ function Home() {
               </div>
             </div>
 
-            <div className="col-span-12">
-              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
-                Lockheed Martin (2024) - Software engineering intern on the
-                manufacturing execution system for the f35
+            <div className="col-span-12 space-y-4">
+              <div>
+                <div className="flex justify-between items-center px-2">
+                  <div className="font-medium text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                    Software Engineering Intern - Lockheed Martin
+                  </div>
+
+                  <div className="text-xs text-gray-500 whitespace-nowrap">
+                    2024 - 2026
+                  </div>
+                </div>
+
+                <div className="px-2 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                  Supporting the manufacturing execution system (mes) for the
+                  f-35 lightning II program
+                </div>
               </div>
-              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
-                Undergraduate Teaching Assistant (2023) - Teaching assistant for
-                intro to python (engr 102) and experimental physics lab (engr
-                216)
+
+              <div>
+                <div className="flex justify-between items-center px-2">
+                  <div className="font-medium text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                    Undergraduate Teaching Assistant - Texas A&amp;M
+                  </div>
+
+                  <div className="text-xs text-gray-500 whitespace-nowrap">
+                    2023 - 2026
+                  </div>
+                </div>
+
+                <div className="px-2   text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                  Teaching assistant for intro to python (engr 102) and
+                  experimental physics lab (engr 216)
+                </div>
               </div>
-              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
-                Student Researcher (march 2025- may 2025) - Researched windows
-                vulnerabilities and developed DLL injection code
+
+              <div>
+                <div className="flex justify-between items-center px-2">
+                  <div className="font-medium text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                    Student Researcher - Texas A&amp;M
+                  </div>
+
+                  <div className="text-xs text-gray-500 whitespace-nowrap">
+                    Mar 2025 - May 2025
+                  </div>
+                </div>
+
+                <div className="px-2 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                  Researched windows vulnerabilities and developed dll injection
+                  code
+                </div>
               </div>
-              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
-                Code Sensei (2021-2023) - Teaching assistant over different
-                programming topics
+
+              <div>
+                <div className="flex justify-between items-center px-2">
+                  <div className=" font-medium text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                    Code Sensei - Code Ninjas
+                  </div>
+
+                  <div className="text-xs text-gray-500 whitespace-nowrap">
+                    2021 - 2023
+                  </div>
+                </div>
+
+                <div className="px-2 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                  Taught programming fundamentals and assisted students across
+                  multiple topics
+                </div>
               </div>
             </div>
 
@@ -100,6 +150,10 @@ function Home() {
             </div>
 
             <div className="col-span-12">
+              <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+                Interactive BRL-CAD Raytracing Visualizer - Developed a custom
+                module for Intel OSPray for raytracing BRL-CAD models
+              </div>
               <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
                 Minimal Linux Kernel - Built a miniature operating system with
                 physical and virtual memory, threading, a file system, etc
