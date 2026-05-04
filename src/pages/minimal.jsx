@@ -151,8 +151,8 @@ function Home() {
 
             <div className="col-span-12">
               <div className="px-2 py-1 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
-                Interactive BRL-CAD Raytracing Visualizer - Tool for visualizing
-                BRL-CAD geometry using ray tracing
+                BRL-CAD Raytracing Visualizer - Tool for visualizing BRL-CAD
+                geometry using ray tracing
               </div>
               <div className="px-2 py-1 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
                 Minimal Linux Kernel - Miniature operating system with physical
