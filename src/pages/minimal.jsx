@@ -85,7 +85,7 @@ function Home() {
                 </div>
                 <div className="px-2 text-xs italic">Lockheed Martin</div>
                 <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
-                  Supporting the manufacturing execution system (mes) for the
+                  Supporting the manufacturing execution system (MES) for the
                   f-35 lightning II program
                 </div>
               </div>
@@ -117,7 +117,7 @@ function Home() {
                 </div>
                 <div className="px-2 text-xs italic">Texas A&amp;M</div>
                 <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
-                  Researched windows vulnerabilities and developed dll injection
+                  Researched windows vulnerabilities and developed DLL injection
                   code
                 </div>
               </div>
@@ -199,11 +199,11 @@ function Home() {
                   </div>
                 </div>
                 <div className="px-2 text-xs italic">
-                  Vue.js, Express.js, Node.js. PostgreSQL
+                  Vue.js, Express.js, Node.js, PostgreSQL
                 </div>
 
                 <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
-                  Pos system with self-checkout kiosk, cashier terminal, and
+                  POS system with self-checkout kiosk, cashier terminal, and
                   manager dashboard
                 </div>
               </div>
