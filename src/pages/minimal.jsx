@@ -154,7 +154,8 @@ function Home() {
                 </div>
                 <div className="px-2 text-xs italic">C/C++, Intel OSPRay</div>
                 <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
-                  Tool for visualizing BRL-CAD geometry using ray tracing
+                  Tool for visualizing and interacting with BRL-CAD geometry
+                  using ray tracing
                 </div>
               </div>
               <div>
@@ -202,7 +203,8 @@ function Home() {
                 </div>
 
                 <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
-                  Full stack point of sales system for panda express
+                  Pos system with self-checkout kiosk, cashier terminal, and
+                  manager dashboard
                 </div>
               </div>
 
