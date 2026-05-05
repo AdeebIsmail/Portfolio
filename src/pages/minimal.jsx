@@ -36,12 +36,12 @@ function Home() {
                   </svg>
                 </button>
                 <div className="z text-[clamp(0.7rem,3.2vw,0.875rem)] text-right">
-                  <Link to="/books" className="hover:underline">
+                  <Link to="/books" className="underline hover:no-underline">
                     books
                   </Link>
                 </div>
                 <div className="z text-[clamp(0.7rem,3.2vw,0.875rem)] text-right">
-                  <Link to="/biking" className="hover:underline">
+                  <Link to="/biking" className="underline hover:no-underline">
                     biking
                   </Link>
                 </div>
@@ -53,14 +53,14 @@ function Home() {
                 hey@adeebismail.com |{" "}
                 <a
                   href="https://www.linkedin.com/in/adeeb-m-ismail/"
-                  className="hover:underline"
+                  className="underline hover:no-underline"
                 >
                   linkedin
                 </a>{" "}
                 |{" "}
                 <a
                   href="https://github.com/AdeebIsmail"
-                  className="hover:underline"
+                  className="underline hover:no-underline"
                 >
                   github
                 </a>
