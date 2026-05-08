@@ -24,7 +24,7 @@ function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    strokeWidth="1.5"
+                    strokeWidth="2"
                     stroke="currentColor"
                     className="w-4 h-4"
                   >
@@ -73,7 +73,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="col-span-12 space-y-4">
+            <div className="col-span-12 space-y-2">
               <div>
                 <div className="flex justify-between items-center px-2 gap-2">
                   <div className="font-medium text-[clamp(0.7rem,3.2vw,0.875rem)] text-left min-w-0">
@@ -101,7 +101,7 @@ function Home() {
                 </div>
                 <div className="px-2 text-xs italic">texas a&amp;m</div>
                 <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
-                  Teaching assistant for intro to python (engr 102) and
+                  teaching assistant for intro to python (engr 102) and
                   experimental physics lab (engr 216)
                 </div>
               </div>
@@ -151,8 +151,20 @@ function Home() {
                   <div className="font-medium text-[clamp(0.7rem,3.2vw,0.875rem)] text-left min-w-0">
                     BRL-CAD raytracing visualizer
                   </div>
+                  <div className="flex-shrink-0">
+                    <a href="/#/brlcad">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-4 h-4"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M14,12 L14,20 L16,20 L16,18 L20,18 L20,16 L16,16 L16,14 L20,14 L20,12 L14,12 Z M0,16 C0,18.21 1.791,20 4,20 L6,20 L6,16 L4,16 L4,18.11 C2.895,18.11 2,17.16 2,16.05 C2,14.95 2.895,14 4,14 L6,14 L6,12 L4,12 C1.791,12 0,13.791 0,16 Z M7,12 L7,14 L9,14 L9,18 L7,18 L7,20 L13,20 L13,18 L11,18 L11,14 L13,14 L13,12 L7,12 Z M20,6.439 L20,10 L18,10 L18,8 L12,8 L12,2 L2,2 L2,10 L0,10 L0,0 L13.979,0 L20,6.439 Z" />
+                      </svg>
+                    </a>
+                  </div>
                 </div>
-                <div className="px-2 text-xs italic">C/C++, Intel OSPRay</div>
+                <div className="px-2 text-xs italic">c/c++, intel ospray</div>
                 <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
                   tool for visualizing and interacting with BRL-CAD geometry
                   using ray tracing
@@ -164,7 +176,7 @@ function Home() {
                     minimal linux kernel
                   </div>
                 </div>
-                <div className="px-2 text-xs italic">C/C++</div>
+                <div className="px-2 text-xs italic">c/c++</div>
                 <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
                   operating system with physical and virtual memory, threading,
                   a file system, etc
@@ -173,12 +185,7 @@ function Home() {
               <div>
                 <div className="flex justify-between items-center px-2 gap-2">
                   <div className="font-medium text-[clamp(0.7rem,3.2vw,0.875rem)] text-left min-w-0">
-                    <a
-                      href="https://github.com/AdeebIsmail/PiDisplay"
-                      className="hover:underline"
-                    >
-                      e-ink display
-                    </a>{" "}
+                    e-ink display
                   </div>
                   <div className="flex-shrink-0">
                     <a href="https://github.com/AdeebIsmail/PiDisplay">
@@ -193,7 +200,7 @@ function Home() {
                     </a>
                   </div>
                 </div>
-                <div className="px-2 text-xs italic">Python</div>
+                <div className="px-2 text-xs italic">python</div>
                 <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
                   e-ink display that dynamically displays the song currently
                   playing on spotify
@@ -202,12 +209,7 @@ function Home() {
               <div>
                 <div className="flex justify-between items-center px-2 gap-2">
                   <div className="font-medium text-[clamp(0.7rem,3.2vw,0.875rem)] text-left min-w-0">
-                    <a
-                      href="https://github.com/AdeebIsmail/PandaExpressPOS"
-                      className="hover:underline"
-                    >
-                      point of sales system
-                    </a>{" "}
+                    point of sales system
                   </div>
                   <div className="flex-shrink-0">
                     <a href="https://github.com/AdeebIsmail/PandaExpressPOS">
@@ -223,7 +225,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="px-2 text-xs italic">
-                  Vue.js, Express.js, Node.js, PostgreSQL
+                  vue.js, express.js, node.js, postgresql
                 </div>
 
                 <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
@@ -236,8 +238,8 @@ function Home() {
                 <div className="flex justify-between items-center px-2 gap-2">
                   <div className="font-medium text-[clamp(0.7rem,3.2vw,0.875rem)] text-left min-w-0">
                     <a
-                      href="https://github.com/AdeebIsmail/route-map-generator"
-                      className="hover:underline"
+                      href="https://adeebismail.github.io/route-map-generator/"
+                      className="underline hover:no-underline"
                     >
                       route map generator
                     </a>{" "}
@@ -256,7 +258,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="px-2 text-xs italic">
-                  React.js, Tailwind CSS
+                  react.js, tailwind css
                 </div>
                 <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
                   custom map generator for creating and visualizing biking
