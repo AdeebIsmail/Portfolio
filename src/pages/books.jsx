@@ -17,14 +17,14 @@ function Books() {
 
           <div className="px-2 pt-2 pb-4 text-3xl sm:text-[1.4rem] md:text-[1.5rem] lg:text-[2rem] font-bold text-left">
             favs
-          </div> 
+          </div>
           <div className="space-y-2">
             <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
               <a
                 href="https://www.goodreads.com/book/show/17262173-kenobi"
                 className="underline hover:no-underline"
               >
-                Kenobi (Star Wars) 
+                Kenobi (Star Wars)
               </a>{" "}
             </div>
             <div className="px-2 py-1 text-sm  md:text-[0.85rem] lg:text-[0.9rem] text-left">
@@ -41,6 +41,14 @@ function Books() {
                 className="underline hover:no-underline"
               >
                 The Lab
+              </a>{" "}
+            </div>
+            <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
+              <a
+                href="https://www.goodreads.com/book/show/54493401-project-hail-mary"
+                className="underline hover:no-underline"
+              >
+                Project Hail Mary
               </a>{" "}
             </div>
           </div>

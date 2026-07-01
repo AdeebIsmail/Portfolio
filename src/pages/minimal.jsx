@@ -77,7 +77,23 @@ function Home() {
               <div>
                 <div className="flex justify-between items-center px-2 gap-2">
                   <div className="font-medium text-[clamp(0.7rem,3.2vw,0.875rem)] text-left min-w-0">
-                    software engineering intern
+                    software engineer
+                  </div>
+                  <div className="text-xs whitespace-nowrap flex-shrink-0">
+                    2024 - 2026
+                  </div>
+                </div>
+                <div className="px-2 text-xs italic">toyota north america</div>
+                <div className="px-2 text-[clamp(0.7rem,3.2vw,0.875rem)] text-left">
+                  full stack development for the enterprise event streaming
+                  platform using apache kafka
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between items-center px-2 gap-2">
+                  <div className="font-medium text-[clamp(0.7rem,3.2vw,0.875rem)] text-left min-w-0">
+                    software engineering
                   </div>
                   <div className="text-xs whitespace-nowrap flex-shrink-0">
                     2024 - 2026
