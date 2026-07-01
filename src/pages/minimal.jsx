@@ -80,7 +80,7 @@ function Home() {
                     software engineer
                   </div>
                   <div className="text-xs whitespace-nowrap flex-shrink-0">
-                    2024 - 2026
+                    2026 - present
                   </div>
                 </div>
                 <div className="px-2 text-xs italic">toyota north america</div>
