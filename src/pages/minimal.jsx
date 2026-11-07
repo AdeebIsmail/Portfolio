@@ -93,7 +93,7 @@ function Home() {
               <div>
                 <div className="flex justify-between items-center px-2 gap-2">
                   <div className="font-medium text-[clamp(0.7rem,3.2vw,0.875rem)] text-left min-w-0">
-                    software engineering
+                    software engineer
                   </div>
                   <div className="text-xs whitespace-nowrap flex-shrink-0">
                     2024 - 2026
