@@ -254,10 +254,10 @@ function Home() {
                 <div className="flex justify-between items-center px-2 gap-2">
                   <div className="font-medium text-[clamp(0.7rem,3.2vw,0.875rem)] text-left min-w-0">
                     <a
-                      href="https://adeebismail.github.io/route-map-generator/"
+                      href="https://route.adeebismail.com/"
                       className="underline hover:no-underline"
                     >
-                      route map generator
+                      route visualizer
                     </a>{" "}
                   </div>
                   <div className="flex-shrink-0">
