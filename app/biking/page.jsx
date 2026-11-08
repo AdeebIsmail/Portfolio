@@ -1,8 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Route1 from "../bike_routes/route1.png";
-import Route2 from "../bike_routes/route2.png";
-import Route3 from "../bike_routes/route3.png";
+"use client";
+
+import Link from "next/link";
 function Biking() {
   return (
     <div className="min-h-screen bg-white dark:bg-black text-gray-900 dark:text-white transition-colors">
@@ -10,7 +8,7 @@ function Biking() {
         <div className="max-w-[600px] w-full mx-auto pt-0 pr-1 pl-1 pb-0 mt-[30px] mb-[60px]">
           <div className="pt-2">
             <Link
-              to="/"
+              href="/"
               className="px-2 underline hover:no-underline text-sm md:text-[0.80rem] lg:text-[0.85rem]"
             >
               back
@@ -23,7 +21,7 @@ function Biking() {
 
           <div className="space-y-2 px-2">
             <img
-              src={Route1}
+              src="/bike_routes/route1.png"
               height="600"
               width="600"
               alt="Bike route 1 map showing 12.04 mile route"
@@ -32,7 +30,7 @@ function Biking() {
               ~12.04 miles
             </p>
             <img
-              src={Route2}
+              src="/bike_routes/route2.png"
               height="600"
               width="600"
               alt="Bike route 2 map showing 8.6 mile route"
@@ -41,7 +39,7 @@ function Biking() {
               ~8.6 miles
             </p>
             <img
-              src={Route3}
+              src="/bike_routes/route3.png"
               height="600"
               width="600"
               alt="Bike route 3 map showing 11.76 mile route"
