@@ -1,5 +1,6 @@
-import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+"use client";
+
+import Link from "next/link";
 
 function Books() {
   return (
@@ -8,7 +9,7 @@ function Books() {
         <div className="max-w-[600px] mx-auto pt-0 pr-1 pl-1 pb-0 mt-[30px] mb-[60px]">
           <div className="pt-2">
             <Link
-              to="/"
+              href="/"
               className="px-2 underline hover:no-underline text-sm md:text-[0.80rem] lg:text-[0.85rem] text-left"
             >
               back
@@ -20,36 +21,36 @@ function Books() {
           </div>
           <div className="space-y-2">
             <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
-              <a
+              <Link
                 href="https://www.goodreads.com/book/show/17262173-kenobi"
                 className="underline hover:no-underline"
               >
                 Kenobi (Star Wars)
-              </a>{" "}
+              </Link>{" "}
             </div>
             <div className="px-2 py-1 text-sm  md:text-[0.85rem] lg:text-[0.9rem] text-left">
-              <a
+              <Link
                 href="https://www.goodreads.com/book/show/59960.Batman"
                 className="underline hover:no-underline"
               >
                 Batman: The Dark Knight Returns
-              </a>{" "}
+              </Link>{" "}
             </div>
             <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
-              <a
+              <Link
                 href="https://www.goodreads.com/book/show/5332742-the-lab"
                 className="underline hover:no-underline"
               >
                 The Lab
-              </a>{" "}
+              </Link>{" "}
             </div>
             <div className="px-2 py-1 text-sm md:text-[0.85rem] lg:text-[0.9rem] text-left">
-              <a
+              <Link
                 href="https://www.goodreads.com/book/show/54493401-project-hail-mary"
                 className="underline hover:no-underline"
               >
                 Project Hail Mary
-              </a>{" "}
+              </Link>{" "}
             </div>
           </div>
         </div>
