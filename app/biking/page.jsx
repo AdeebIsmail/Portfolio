@@ -21,31 +21,31 @@ function Biking() {
 
           <div className="space-y-2 px-2">
             <img
-              src="/bike_routes/route1.png"
+              src="/bike_routes/13.63.png"
               height="600"
               width="600"
-              alt="Bike route 1 map showing 12.04 mile route"
+              alt="Bike route 1 map showing 13.63 mile route"
             />
             <p className="text-sm md:text-[0.85rem] lg:text-[0.9rem] text-center italic py-1">
-              ~12.04 miles
+              ~13.63 miles
             </p>
             <img
-              src="/bike_routes/route2.png"
+              src="/bike_routes/16.68.png"
               height="600"
               width="600"
-              alt="Bike route 2 map showing 8.6 mile route"
+              alt="Bike route 2 map showing 16.68 mile route"
             />
             <p className="text-sm md:text-[0.85rem] lg:text-[0.9rem] text-center italic py-1">
-              ~8.6 miles
+              ~16.68 miles
             </p>
             <img
-              src="/bike_routes/route3.png"
+              src="/bike_routes/20.94.png"
               height="600"
               width="600"
-              alt="Bike route 3 map showing 11.76 mile route"
+              alt="Bike route 3 map showing 20.94 mile route"
             />
             <p className="text-sm md:text-[0.85rem] lg:text-[0.9rem] text-center italic py-1">
-              ~11.76 miles
+              ~20.94 miles
             </p>
           </div>
         </div>
