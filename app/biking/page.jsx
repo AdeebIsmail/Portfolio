@@ -19,34 +19,39 @@ function Biking() {
             bike routes
           </div>
 
-          <div className="space-y-2 px-2">
-            <img
-              src="/bike_routes/13.63.png"
-              height="900"
-              width="900"
-              alt="Bike route 1 map showing 13.63 mile route"
-            />
-            <p className="text-sm md:text-[0.9rem] lg:text-[1rem] text-center italic py-1">
-              ~13.63 miles
-            </p>
-            <img
-              src="/bike_routes/16.68.png"
-              height="900"
-              width="900"
-              alt="Bike route 2 map showing 16.68 mile route"
-            />
-            <p className="text-sm md:text-[0.9rem] lg:text-[1rem] text-center italic py-1">
-              ~16.68 miles
-            </p>
-            <img
-              src="/bike_routes/20.94.png"
-              height="900"
-              width="900"
-              alt="Bike route 3 map showing 20.94 mile route"
-            />
-            <p className="text-sm md:text-[0.9rem] lg:text-[1rem] text-center italic py-1">
-              ~20.94 miles
-            </p>
+          <div className="space-y-8 px-2">
+            <div className="flex flex-col items-center">
+              <img
+                src="/bike_routes/13.63.png"
+                alt="Bike route 1 map showing 13.63 mile route"
+                className="w-full max-w-[900px] h-auto"
+              />
+              <p className="text-sm md:text-[0.9rem] lg:text-[1rem] text-center italic py-2">
+                ~13.63 miles
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <img
+                src="/bike_routes/16.68.png"
+                alt="Bike route 2 map showing 16.68 mile route"
+                className="w-full max-w-[900px] h-auto"
+              />
+              <p className="text-sm md:text-[0.9rem] lg:text-[1rem] text-center italic py-2">
+                ~16.68 miles
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <img
+                src="/bike_routes/20.94.png"
+                alt="Bike route 3 map showing 20.94 mile route"
+                className="w-full max-w-[900px] h-auto "
+              />
+              <p className="text-sm md:text-[0.9rem] lg:text-[1rem] text-center italic py-2">
+                ~20.94 miles
+              </p>
+            </div>
           </div>
         </div>
       </div>
